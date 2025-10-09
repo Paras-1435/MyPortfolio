@@ -98,58 +98,6 @@ export default function Footer() {
           </div>
         </nav>
 
-        {/* Quick Links */}
-{/* <nav
-  id="foo-nav"
-  className="
-    flex flex-wrap justify-center gap-4 sm:gap-10 w-[80%] mx-auto
-    sm:flex-nowrap sm:justify-center
-  "
->
-  <NavLink
-    className="relative font-mono w-1/2 sm:w-auto text-center text-white after:absolute after:inset-x-0 after:bottom-[-4px] after:h-[3px] after:bg-gradient-to-r after:from-transparent after:via-white after:to-transparent after:scale-x-0 after:origin-center after:transition-transform after:duration-500 hover:after:scale-x-100"
-    to="/"
-  >
-    Home
-  </NavLink>
-
-  <NavLink
-    className="relative font-mono w-1/2 sm:w-auto text-center text-white after:absolute after:inset-x-0 after:bottom-[-4px] after:h-[3px] after:bg-gradient-to-r after:from-transparent after:via-white after:to-transparent after:scale-x-0 after:origin-center after:transition-transform after:duration-500 hover:after:scale-x-100"
-    to="/about"
-  >
-    About
-  </NavLink>
-
-  <NavLink
-    className="relative font-mono w-1/2 sm:w-auto text-center text-white after:absolute after:inset-x-0 after:bottom-[-4px] after:h-[3px] after:bg-gradient-to-r after:from-transparent after:via-white after:to-transparent after:scale-x-0 after:origin-center after:transition-transform after:duration-500 hover:after:scale-x-100"
-    to="/skills"
-  >
-    Skills
-  </NavLink>
-
-  <NavLink
-    className="relative font-mono w-1/2 sm:w-auto text-center text-white after:absolute after:inset-x-0 after:bottom-[-4px] after:h-[3px] after:bg-gradient-to-r after:from-transparent after:via-white after:to-transparent after:scale-x-0 after:origin-center after:transition-transform after:duration-500 hover:after:scale-x-100"
-    to="/certificates"
-  >
-    Certificates
-  </NavLink>
-
-  <NavLink
-    className="relative font-mono w-1/2 sm:w-auto text-center text-white after:absolute after:inset-x-0 after:bottom-[-4px] after:h-[3px] after:bg-gradient-to-r after:from-transparent after:via-white after:to-transparent after:scale-x-0 after:origin-center after:transition-transform after:duration-500 hover:after:scale-x-100"
-    to="/projects"
-  >
-    Projects
-  </NavLink>
-
-  <NavLink
-    className="relative font-mono w-1/2 sm:w-auto text-center text-white after:absolute after:inset-x-0 after:bottom-[-4px] after:h-[3px] after:bg-gradient-to-r after:from-transparent after:via-white after:to-transparent after:scale-x-0 after:origin-center after:transition-transform after:duration-500 hover:after:scale-x-100"
-    to="/contact"
-  >
-    Contact
-  </NavLink>
-</nav> */}
-
-
         {/* Social Links */}
         <div id="foo-icon" className="flex justify-center space-x-6 text-xl text-green-400 foo-icon">
           <a href="https://github.com/Paras-1435/" target="_blank" rel="noreferrer">
