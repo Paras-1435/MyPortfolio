@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import ProjectCard from "../components/ProjectCard";
 import userManagementImg from "../assets/user-management.png"; // Screenshot/GIF
 import salonHero from "../assets/salonHero.png"; // Screenshot/GIF
+import potentiaElevators from "../assets/potentia-elevators.png"; // Screenshot/GIF
 import proj1 from "../../public/images/proj1.png"; // Screenshot/GIF
 import ToggleTheme from "../components/ToggleTheme";
 import { themeContext } from "../useContext/store";
@@ -33,6 +34,12 @@ function ProjectsSection() {
             image={salonHero}
             liveLink="https://salonproject-parth.netlify.app/"
             githubLink="https://github.com/Paras-1435/salon-project"
+          />
+          <ProjectCard
+            title="Potentia Elevators"
+            description="Modern premium elevator website with AI-assisted development, hands-on UI customization, and optimization."
+            image={potentiaElevators}
+            liveLink="https://potentiaelevator.vercel.app/"
           />
         </div>
       </div>
