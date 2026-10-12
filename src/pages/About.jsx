@@ -51,7 +51,7 @@ export default function About() {
           <div className={theme === 'dark' ? '' : '[&_a]:text-white [&_a]:bg-blue-500 hover:[&_a]:bg-blue-600'}>
             <div className="text-center mt-10  ease-in-out duration-600 transition-transform hover:scale-120">
               <a
-                href="./Doc/Paras-CV-BCA.pdf"
+                href="./Doc/parth-cv.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
