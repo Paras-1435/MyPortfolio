@@ -1,0 +1,283 @@
+body {
+  background-color: #000000;
+  background-image: url('/myapp/public/images/pic1.jpg');
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+#navlink {
+
+  padding: 5px 15px;
+  border-radius: 25px;
+}
+
+.glow-text {
+  color: #d6d6d6;
+  /* neon green */
+  text-shadow:
+    0 0 2px #d6d6d6,
+    0 0 5px #d6d6d6,
+    0 0 10px #d6d6d6,
+    0 0 30px #d6d6d6;
+}
+
+.glow-border {
+  border: 2px solid #d6d6d6;
+  /* Base border color */
+  border-radius: 12px;
+  box-shadow: 0 0 10px #d6d6d6, 0 0 20px #030303, 0 0 30px #d6d6d6;
+  transition: 0.3s ease-in-out;
+}
+
+.hambug-menu {
+  display: none;
+}
+
+ #dyn-text{
+  padding-top: 5%;
+ }
+
+@media (max-width:800px) {
+  .hambug-menu {
+    display: block;
+  }
+
+  .menu-web ul {
+    display: none;
+  }
+
+  .menu-mobi ul {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    padding-left: 15px;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    font-weight:bolder;
+
+  background-color: rgba(214, 214, 214, 0.8);
+  box-shadow: 0 4px 6px #d6d6d6;
+
+    backdrop-filter: blur(8px) britness(.5);
+
+    width: 220px;
+    height: 350px;
+  }
+
+ 
+}
+
+
+
+@media (min-width:800) {
+  .hero-sec{
+    display: grid;
+    
+  }
+  .hero-sec .img-con{
+    width: 50%;
+    border-radius:50%;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 768px) {
+  #foo-nav {
+    display: flex;
+    gap:10px;
+    font-size: small;
+    
+  }
+  #dyn-text{
+    display: flex;
+    flex-wrap: wrap;   /* 👈 allows items to move to next line */
+    justify-content:center;
+    gap: 10px;
+    font-size: small;
+    font-weight: bolder;
+   padding-top: 15%;
+
+  }
+.hero-sec{
+position: relative;
+display: flex;
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38%;
+  border: 1px solid white;
+  width: 350px;
+  height:400px
+
+}
+  .img-con{
+    border-bottom: 1px solid white;
+    box-shadow: 0 4px 6px #d6d6d6; 
+    height: 250px;
+    width: 250px;
+  position: absolute;
+    display:grid;
+    top: -28%;
+  
+   
+  }
+  .name{
+   
+    align-self:last baseline;
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+  }
+
+  .backToTop{
+    position: absolute;
+    bottom:47%;
+  }
+}
+
+#foo-icon a {
+
+  transition: all 500ms ease-in-out;
+  transition-delay: 75ms; /* optional */
+}
+#foo-icon{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+#foo-icon a:hover {
+  transform: scale(1.5);
+}
+
+
+
+
+#navlink {
+  transition: all 500ms ease-in-out;
+}
+#navlink:hover {
+  background-color: black;
+  color: white;
+}
+
+#btnThemeToggle{
+  background-color: black;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+}
+
+#con-box{
+  padding:5%;
+ padding-top: 40px;
+}
+#contact{
+  min-height:fit-content;
+  display: flex;
+  justify-content: center;
+  
+}
+#skills{
+  color: rgb(232, 232, 232);
+  padding: 5%;
+  padding-top: 40px;
+}
+#certificates{
+  padding-top: 40px;
+  padding-bottom: 5%;
+  
+}
+
+#about{
+  color: rgb(232, 232, 232);
+  padding: 5%;
+  padding-top: 40px;
+  padding-bottom: 60px;
+
+}
+
+
+/* animetion */
+#box{
+ width: 400px;
+ height: 230px;
+ border: 1px solid rgb(232, 154, 19);
+ border-radius: 8px;
+
+}
+.scale1 {
+  animation: ani 0.5s ease-in-out forwards;
+}
+
+@keyframes ani {
+  0% {
+    transform: scale(1);   /* normal size */
+  }
+  50% {
+    transform: scale(1.2); /* grow 20% bigger */
+  }
+  100%{
+     transform: scale(1);   /* normal size */
+  }
+}
+
+
+.hide-blur {
+  animation: hideBlur 0.8s forwards;
+
+}
+
+@keyframes hideBlur {
+  0% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  100% {
+    opacity: 0;
+    filter: blur(5px);
+  }
+}
+
+.showdiv{
+ display: block;
+animation: showBlueDiv 1.5s forwards;
+
+}
+
+@keyframes showBlueDiv {
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+.hide-showdiv{
+  animation: hideBlueDiv 1.1s forwards;
+}
+@keyframes hideBlueDiv {
+  0% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  100% {
+    opacity: 0;
+    filter: blur(5px);
+  }
+}
