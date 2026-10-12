@@ -1,5 +1,7 @@
 import { createContext, useState } from "react";
 
+// The context is intentionally exported with the provider for convenient imports.
+// eslint-disable-next-line react-refresh/only-export-components
 export const themeContext = createContext();
 
 export const ThemeProvider=({children})=>{

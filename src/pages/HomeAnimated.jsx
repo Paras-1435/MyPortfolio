@@ -1,9 +1,7 @@
-import React, { useEffect, useRef, useState } from 'react'
-import { motion } from "framer-motion";
+import React, { useRef } from 'react'
 
 
 function HomeAnimated() {
-     const [loaded, setLoaded] = useState(false);
      const BtnRef =useRef()
      const DivREf=useRef()
      const offRef= useRef()
@@ -22,9 +20,6 @@ function HomeAnimated() {
   }
      
 
-  useEffect(() => {
-    setLoaded(true); // trigger animation after component mounts
-  }, []);
   return (
     
     <>

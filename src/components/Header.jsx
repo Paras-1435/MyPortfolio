@@ -7,7 +7,6 @@ import { themeContext } from '../useContext/store';
 export default function Nav() {
     const {theme}=useContext(themeContext)
     const [isOpen,setIsOpen]=useState(false)
-     const [scrolled, setScrolled] = useState(false);
     const showHamIcon=()=>{
          setIsOpen(!isOpen);
     }
@@ -27,18 +26,6 @@ export default function Nav() {
     }
    },[loactor])
 
-    useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-   
     return (
         <>
         <div style={{position:'sticky',top:'0', zIndex:'50'}} className={theme==='dark'?'':'shadow-black shadow-lg'}>

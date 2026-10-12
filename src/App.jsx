@@ -1,4 +1,3 @@
-import { useContext, useState } from 'react'
 import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 import './App.css'
 import AppLayout from './components/layout/AppLayout'
@@ -7,8 +6,6 @@ import About from './pages/About'
 import Skills from './pages/Skills'
 import Certificate from './pages/Certificate'
 import Contact from './pages/Contact'
-import HomeAnimated from './pages/HomeAnimated'
-
 import ProjectsSection from './pages/Project'
 
 

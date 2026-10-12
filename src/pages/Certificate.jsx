@@ -10,13 +10,13 @@ export default function Certificates() {
       title: "Web Development using ASP.NET C#",
       issuer: "Participated in a 7-day national workshop organized by Central Library and ICT Cell, Maharaja Agrasen College, Jagadhri",
       date: "(28th November to 5th December 2022)",
-      link: "./images/WebDev_cert.jpg",
+      link: "/images/WebDev_cert.jpg",
     },
     {
       title: "Program Debugging Competition – 1st Position",
       issuer: "Secured 1st position in the competition organized by the Department of Computer Science & Applications,Maharaja Agrasen Mahavidyalaya, Jagadhr",
       date: "16 March, 2023",
-      link: "./Doc/Debug.pdf",
+      link: "/Doc/Debug.pdf",
     },
     {
       title: "Create a Website Using Wordpress",

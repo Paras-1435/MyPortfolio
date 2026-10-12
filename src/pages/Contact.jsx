@@ -33,7 +33,7 @@ export default function Contact() {
           // console.log("Message Sent:", result.text);
           // alert("Message sent successfully!");
         },
-        (error) => {
+        () => {
           // console.log("Error:", error.text);
           alert("Something went wrong!");
         }
